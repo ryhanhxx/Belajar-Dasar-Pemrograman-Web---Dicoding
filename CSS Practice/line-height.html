@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Line Height</title>
+</head>
+
+<style>
+    /*Contohnya, ukuran font standar pada paragraf adalah 16 pixel. Kita definisikan properti line-height dengan nilai 2,
+     maka nilai properti line-height seharusnya adalah 16 pixel * 2 = 32 pixel (dua kali lebih besar dari ukuran font).*/
+    p {
+        line-height: 2;
+    }
+
+    p {
+        line-height: 200%;
+    }
+
+    p {
+        line-height: 2em;
+    }
+
+    p#first {
+        text-indent: 2em;
+    }
+
+    p#second {
+        text-indent: 25%;
+    }
+
+    p#third {
+        text-indent: -35px;
+    }
+</style>
+
+<body>
+    <p id="first">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    <p id="second">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    <p id="third">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+</body>
+
+</html>
